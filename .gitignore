@@ -1,0 +1,6 @@
+# Ignore system files
+.eslintrc
+
+# Ignore npm packages 
+
+node_modules/

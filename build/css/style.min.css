@@ -1,1 +1,1 @@
-body{background-color:#000;color:#fff;height:100%}
+body{background-color:#000;color:#fff;height:100%}.logo-and-form{height:90vh;display:-ms-flexbox;display:flex;-ms-flex-flow:column;flex-flow:column;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}@media (min-width:600px){.logo-and-form{-ms-flex-flow:row;flex-flow:row;-ms-flex-align:center;align-items:center}}@media (min-width:1200px){.logo-and-form{-ms-flex-pack:start;justify-content:flex-start;margin-left:2rem}}
