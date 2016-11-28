@@ -1,0 +1,24 @@
+/***** STYLING ****/
+.abstract {
+    text-align: center;
+    padding: 1rem .5rem;
+    color: #fff;
+    line-height: 1.5;
+    background: rgba(0, 0, 0, .5);
+}
+
+@include desktop {
+    .articleBackground:hover .abstract {
+        max-height: 250px;
+        visibility: visible;
+    }
+    .abstract {
+        transition: 0.8s ease-in-out;
+        max-height: 0;
+        margin-top: 3rem;
+        visibility: hidden;
+        p{
+            color: #fff;
+        }
+    }
+}
