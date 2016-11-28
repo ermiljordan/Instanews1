@@ -1,0 +1,17 @@
+/****   NEWS ******/
+.top-news {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    li {
+        width: 100%;
+        @include tablet {
+            flex-basis: 50%;
+        }
+        @include desktop {
+            flex-basis: 25%;
+        }
+      }
+    }
