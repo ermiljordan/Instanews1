@@ -157,6 +157,7 @@ span {
       .top-news li {
         -ms-flex-preferred-size: 25%;
             flex-basis: 25%; } }
+<<<<<<< HEAD
   .top-news .articleBackground {
     height: 400px;
     width: 100%;
@@ -168,3 +169,5 @@ span {
     .top-news .articleBackground .abstract {
       -ms-flex-item-align: end;
           align-self: flex-end; }
+=======
+>>>>>>> 0b1c5a2b72681cdbab4625fc300c2e57a1c96751
