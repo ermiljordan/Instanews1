@@ -1,0 +1,16 @@
+/*** FOOTER  ***/
+footer {
+    color: #c2c2c2;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    @include desktop {
+        justify-content: flex-start;
+        padding-left: 2rem;
+    }
+}
+
+span {
+    text-transform: uppercase;
+}

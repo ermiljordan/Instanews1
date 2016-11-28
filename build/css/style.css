@@ -28,3 +28,55 @@ body {
       -ms-flex-pack: start;
           justify-content: flex-start;
       margin-left: 2rem; } }
+
+.nyt-logo {
+  margin-top: 2rem; }
+  @media (min-width: 600px) {
+    .nyt-logo {
+      margin-right: 1.5rem; } }
+
+form #dropdown {
+  width: 160px;
+  height: 28px;
+  font-size: 1.2rem; }
+
+.headerShrink {
+  height: 75px;
+  transition: .75s;
+  padding-top: 7rem; }
+  .headerShrink form {
+    margin-top: 1rem;
+    padding-bottom: 7rem; }
+  .headerShrink img {
+    height: 75px; }
+  @media (min-width: 600px) {
+    .headerShrink {
+      height: 110px;
+      padding-top: 0; }
+      .headerShrink form {
+        padding-bottom: 0; }
+      .headerShrink img {
+        height: 55px;
+        width: auto;
+        margin-bottom: 1rem; } }
+
+h4 {
+  margin: 1rem auto; }
+
+/*** FOOTER  ***/
+footer {
+  color: #c2c2c2;
+  height: 10vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-top: 1rem; }
+  @media (min-width: 1200px) {
+    footer {
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+      padding-left: 2rem; } }
+
+span {
+  text-transform: uppercase; }
