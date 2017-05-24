@@ -13,6 +13,9 @@
         @include desktop {
             flex-basis: 25%;
         }
+        p {
+            text-decoration: none;
+        }
       }
 
         .articleBackground {

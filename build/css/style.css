@@ -157,6 +157,8 @@ span {
       .top-news li {
         -ms-flex-preferred-size: 25%;
             flex-basis: 25%; } }
+    .top-news li p {
+      text-decoration: none; }
   .top-news .articleBackground {
     height: 400px;
     width: 100%;
