@@ -152,7 +152,9 @@ span {
     @media (min-width: 600px) {
       .top-news li {
         -ms-flex-preferred-size: 50%;
-            flex-basis: 50%; } }
+            flex-basis: 50%; }
+        .top-news li a {
+          text-decoration: none; } }
     @media (min-width: 1200px) {
       .top-news li {
         -ms-flex-preferred-size: 25%;

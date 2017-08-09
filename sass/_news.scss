@@ -9,6 +9,9 @@
         width: 100%;
         @include tablet {
             flex-basis: 50%;
+            a {
+                text-decoration: none;
+            }
         }
         @include desktop {
             flex-basis: 25%;
